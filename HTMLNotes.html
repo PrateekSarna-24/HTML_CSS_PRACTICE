@@ -1,0 +1,277 @@
+<!--BROWSER == COMPILER IN LAYMAN TERMS-->
+
+<!--HTML IS A CASE INSESTIVE LANGUAGE
+BODY AND body ARE SAME. UNLIKE PROGRAMING LANGUAGE VARIABLES
+-->
+
+<!--IMPORTANT      
+Tags in html
+1. container - can put other elements inside them
+2. single - just a single wholesum element.
+3. block - takes complete width starts another tag with new line
+4. inline - can be in same line
+
+Every tag in html can have something known as ATTRIBUTES.
+
+ATTRIBUTES define the tags. 
+<tag attributes >
+
+  basically like properties of a class. 
+  iss tag, iss element ko kaisa dikhna hai ya iski kya 
+  description hai, ya kya colour or bg color 
+  basically customzing the tag. 
+
+  can give it a name. or assign a class (of css).
+
+
+  basically every tag has all the properties.
+-->
+
+<!--<hr/ > is for horizontal line-->
+<!--<big> <small> <sup> <sub> these tags are for text or a word-->
+<!--<br/ > is for new line-->
+<!--<i> is italic </i>-->
+
+<!--HTML has a <style> </style> tag in which we can write our
+CSS or attach a css file.-->
+<!--CSS is used to work on any tag. to design a tag-->
+<!--It uses a tag selector. We give a tag a name or a class
+Then select it from CSS-->
+
+<!--STYLE ATTRIBUTE 
+  style = "color : color; baackground-color : color;"
+-->
+
+<!--paragraph tag doent have new lines its a one go thing-->
+
+<!--All the web pages has 3 sections : 
+1. header = has navbar, brandName & stuff
+2. body = content
+3. footer 
+
+ALL 3 ARE MADE INSIDE BODY TAG
+<BODY>
+  <HEADER>
+    <nav></nav>
+  </HEADER>
+  <MAIN></MAIN>
+  <FOOTER></FOOTER>
+</BODY>
+
+THESE ARE CONTAINER TAGS LIKE DIV
+-->
+<!--we have 
+<article>
+<section>
+<aside> container tags
+  aside = like a side thing like ads.
+  -->
+
+<!--<a></a> tag
+    it is a link tag.
+    provides a link to other webpages.
+
+    <a href = "link (inlcude https:// if page is other than own website)"
+    >  text (to make link shrink into a word) </a>
+
+    since it is a container can put anything in here to make a link
+    such as image or anything.
+    it is a container tag. 
+
+
+    ****also to make sure the new link opens in a new tab****
+
+    <a href = "link" target = "_blank">  </a>
+
+
+    for websites own web pages i.e another pages of website
+
+    ie same in the folder 
+
+    to link those
+
+    <a href = "page2.html"> </a>
+
+    if in onother folder 
+    <a href = "folder1/page3.html"></a>
+
+    IMPORTANT IMPORTANT IMPORTANT
+
+    WE CAN GIVE LINKS TO PDF IMAGES AS WELL
+
+    <a href = "link of img/ pdf/ any other thing in the folder"></a>
+
+
+    href = "#" no link NULL.
+
+  -->
+
+<!--IMAGES IN HTML
+  
+      SINGLE TAG
+
+      <img src = "location of image" alt = "description/ name" />
+
+      location can be any webpage or same folder
+
+      alt = name of image if cant load the image
+
+    <img width = "" height = " src = "" alt = ""/>
+
+    if (onlu w or h the it will automatically sets according to 
+    the aspect ratio)
+
+    two units 
+    px = pixels (static remains as it is)
+
+    relative units 
+
+    100% this is used in css
+
+  -->
+
+<!--VIDEO TAG
+
+  IT IS A CONTAINER TAG
+  <video src = "link if own"> text </video>
+  text only if video doesnt load.
+
+  atrributes :
+  src
+  control = provides all controls like pause play
+
+  poster = image source for thumbnails
+
+  loop = start again at the end. 
+
+
+-->
+
+<!--<iFrames></iFrames>
+
+  this tag allows us to play other elements of website in our website
+
+  like other websites's content
+
+  get the compleete link from youtube 
+
+-->
+
+<!--List container in html
+
+  2 types 
+    unordered = "bullets or different icon"
+    ordered = "1 2 3 or 4 5 6"
+    description list
+
+    note :
+      each list element comes inside
+        <li>element in the list</li>
+    
+    unordered 
+      <ul></ul>
+    ordered
+    <ol></ol>
+      attribues : 
+        type = "A or 1 or a or i or I" 
+        to mark the numbering
+    
+    description list
+      <dl></dl>
+
+      <dt>element</dt><dd>description of element</dd>
+  -->
+
+<!--TABLES IN HTML
+
+  <table></table>
+
+  container
+<table>
+  <caption></caption> // name of the table
+  <tr>
+    <th>header1</th>
+    <th>header2</th>
+  </tr>
+  <tr> // row 1
+    <td>// col1</td>
+    <td>// col2</td>
+  </tr> 
+  <tr>// row 2
+    <td>// col1</td>
+    <td> // col2 </td>
+  </tr>
+</table>
+
+
+if <td> col element
+  <th> col heading (name of the column);
+
+  two parts of table
+  head & body 
+  <thead>has caption and col names</thead>
+  <tbody>content</tbody>
+
+  attribute : 
+    colspan : gives an element that many col spaces
+-->
+
+<!--DIVS AND SPANS
+
+  divs : BLOCK CONTAINERS
+  spans : INLINE CONTAINERS
+
+  <div></div> 
+  <span></span>
+
+  baaki styling css se dekhna
+
+-->
+
+<!--
+  <form></form> container for input tags
+  <input/> single
+
+  <input name = "" type = "" value = "default value to show"/>
+  types :
+    text
+    date (opens calander)
+    file (take input a file)
+    password(encrypted dots text)
+    email
+    range(slider)
+    button
+    checkbox
+    radio = (two buttons name must be same)
+    submit
+
+    <textarea rows = "" cols = "">
+      random input paragraph
+    </textarea>
+-->
+
+<!--
+    <iframe src = "" frameboarder = "" width = "">
+      to embed other website's content
+    </iframe>
+-->
+
+<!--
+  meta tags (single)
+  <meta charset = ""/>
+  <meta name = "" content = ""/>
+
+  name :
+    description
+    author
+    keywors (helps in searching websites)
+    viewport
+  content :
+    desciption detailed < 200 wrds
+    name of author
+    keywords 
+    viewport = width-device (width adjusment according to the device)
+-->
+
+<!-- <!DOCTYPE html>
+It tells that this document is a html file -->
